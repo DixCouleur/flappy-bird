@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <title>小鸟</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #id-canvas {
+            border: 1px black solid;
+        }
+
+        #id-app {
+            display: flex;
+            width: 800px;
+            margin: 0 auto;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+<div id="id-app">
+    <canvas id="id-canvas" width="400" height="600"></canvas>
+    <div>
+        <h1>j: 开始/跳跃</h1>
+        <h1>p: 暂停</h1>
+    </div>
+</div>
+<hr>
+
+<p>调试面板</p>
+<div id="id-debug-div">
+</div>
+
+<script src="js/levels.js"></script>
+<script src="js/config.js"></script>
+<script src="js/game/utils.js"></script>
+<script src="js/game/scene.js"></script>
+<script src="js/game/animation.js"></script>
+<script src="js/game/sprite.js"></script>
+<script src="js/game/gimage.js"></script>
+<script src="js/game/label.js"></script>
+<script src="js/scene/main/title.js"></script>
+<script src="js/scene/main/score_board.js"></script>
+<script src="js/scene/main/bird.js"></script>
+<script src="js/scene/main/pipes.js"></script>
+<script src="js/scene/main/scene_main.js"></script>
+<script src="js/game/game.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
